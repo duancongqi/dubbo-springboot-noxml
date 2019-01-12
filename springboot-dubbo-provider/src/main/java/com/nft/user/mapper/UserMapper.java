@@ -1,6 +1,6 @@
 package com.nft.user.mapper;
 
-import com.nft.user.User;
+import com.nft.user.pojo.User;
 
 import java.util.List;
 

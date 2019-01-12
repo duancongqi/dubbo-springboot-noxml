@@ -2,7 +2,7 @@ package com.nft.user.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.nft.api.UserService;
-import com.nft.user.User;
+import com.nft.user.pojo.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

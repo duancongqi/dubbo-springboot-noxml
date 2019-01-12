@@ -12,6 +12,7 @@
         <module>springboot-dubbo-consumer</module>
         <module>springboot-dubbo-api</module>
         <module>springboot-dubbo-pojo</module>
+        <module>springboot-dubbo-core</module>
     </modules>
     <packaging>pom</packaging>
     <!-- 第一步：添加Springboot的parent -->
@@ -42,7 +43,12 @@
                 <artifactId>spring-boot-starter</artifactId>
                 <version>${spring-boot.version}</version>
             </dependency>
-
+            <!-- spring aop -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
             <!-- 使用lombok实现JavaBean的get、set、toString、hashCode、equals等方法的自动生成 -->
             <dependency>
                 <groupId>org.projectlombok</groupId>

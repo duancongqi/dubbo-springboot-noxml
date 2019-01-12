@@ -2,7 +2,7 @@ package com.nft.user.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.nft.api.UserService;
-import com.nft.user.User;
+import com.nft.user.pojo.User;
 import com.nft.user.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
